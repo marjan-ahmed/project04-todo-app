@@ -1,9 +1,10 @@
 import inquirer from "inquirer";
+import chalk from "chalk";
 
 const todos: number[] = [];
 let condition: boolean = true
 
-console.log("Hey Welcome to To-Do list app! (by Marjan Ahmed)")
+console.log(chalk.bgRed("Hey Welcome to To-Do list app! (by Marjan Ahmed)"));
 
 while(condition){
 
@@ -23,7 +24,11 @@ while(condition){
         ]
     );
     
-    todos.push(addTask.userTodo);
+    const addingTask = () => {
+        todos.push(addTask.userTodo);
+    };
+
+    addingTask();
     condition = addTask.confirmation;
     console.log(todos);
 

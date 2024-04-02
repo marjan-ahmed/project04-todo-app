@@ -1,7 +1,8 @@
 import inquirer from "inquirer";
+import chalk from "chalk";
 const todos = [];
 let condition = true;
-console.log("Hey Welcome to To-Do list app! (by Marjan Ahmed)");
+console.log(chalk.bgRed("Hey Welcome to To-Do list app! (by Marjan Ahmed)"));
 while (condition) {
     const addTask = await inquirer.prompt([
         {
@@ -15,7 +16,10 @@ while (condition) {
             message: "Do you want to add more todos ?"
         }
     ]);
-    todos.push(addTask.userTodo);
+    const addingTask = () => {
+        todos.push(addTask.userTodo);
+    };
+    addingTask();
     condition = addTask.confirmation;
     console.log(todos);
 }
