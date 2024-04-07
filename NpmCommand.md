@@ -6,4 +6,4 @@
 
 ----------------------------------------------------------------
 
-<h6 style = "color: "navy""><a href = "https://www.npmjs.com/~marjanahmed"></a>Click Here to view my npm profile </h6> 
+<h6 style = "color: "yellow;""><a href = "https://www.npmjs.com/~marjanahmed">Click here to view my NPM profile</a></h6>
