@@ -1,6 +1,6 @@
 <h3>Installation</h3>
 
-```python
+```jiajs
 <h5 style = "color: "blue"">npm i @marjanahmed/todo-list-app</h5>
 ```
 
