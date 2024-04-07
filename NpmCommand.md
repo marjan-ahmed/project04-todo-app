@@ -1,8 +1,8 @@
 <h5>Write the command to "cmd" to install To-Do App:</h5>
-<h6 style = "color: "blue"">npm i @marjanahmed/todo-list-app</h6>
+<button><h6 style = "color: "blue"">npm i @marjanahmed/todo-list-app</h6></button>
 
 <h5>To run the app, type:</h5>
-<h6 style = "color: "blue"">npx @marjanahmed/todo-list-app</h6>
+<button><h6 style = "color: "blue"">npx @marjanahmed/todo-list-app</h6></button>
 
 ----------------------------------------------------------------
 
