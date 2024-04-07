@@ -1,14 +1,14 @@
-<h3>Installation</h3>
+<h2>Installation</h2>
 
 ```js
 npm i @marjanahmed/todo-list-app
 ```
 
-<h3>Run</h3>
+<h2>Run</h2>
 
 ```js
 npx @marjanahmed/todo-list-app
 ```
 ----------------------------------------------------------------
 
-<h6 style = "color: "yellow;""><a href = "https://www.npmjs.com/~marjanahmed">'Click here'to view my NPM profile</a></h6>
+<h3 style = "color: "yellow;""><a href = "https://www.npmjs.com/~marjanahmed">Click here</a>to view my NPM profile</h3>
