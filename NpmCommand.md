@@ -1,7 +1,7 @@
-<h1>Write the command to "cmd" to install To-Do App:</h1>
-<h2>npm i @marjanahmed/todo-list-app</h2>
+<h5>Write the command to "cmd" to install To-Do App:</h5>
+<h6 style = "color: "blue"">npm i @marjanahmed/todo-list-app</h6>
 
-<h1>To run the app, type:</h1>
-<h2>npx @marjanahmed/todo-list-app</h2>
+<h5>To run the app, type:</h5>
+<h6 style = "color: "blue"">npx @marjanahmed/todo-list-app</h6>
 
-<h3 href = "https://www.npmjs.com/~marjanahmed">Click Here <span style ="color: "black"">to view my npm profile</span></h3> 
+<h6 style = "color: "blue""><a href = "https://www.npmjs.com/~marjanahmed"></a>Click Here to view my npm profile </h6> 
