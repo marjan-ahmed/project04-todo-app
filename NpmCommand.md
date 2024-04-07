@@ -4,7 +4,8 @@
 npm i @marjanahmed/todo-list-app
 ```
 
-<h5>Run</h5>
+<h3>Run</h3>
+
 ```js
 <button><h6 style = "color: "blue"">npx @marjanahmed/todo-list-app</h6></button>
 ```
