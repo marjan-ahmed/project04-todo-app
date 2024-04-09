@@ -1,8 +1,9 @@
+#!usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 
 const todos: number[] = [];
-let condition: boolean = true
+let condition: boolean = true;
 
 console.log(chalk.bgRed("Hey Welcome to To-Do list app! (by Marjan Ahmed)"));
 
@@ -13,23 +14,21 @@ while(condition){
             {
                 name: "userTodo",
                 type: "input",
-                message: "Enter your to-do:"
+                message: " \t \n Enter your to-do:"
             },
             {
                 name: "confirmation",
                 type: "confirm",
-                message: "Do you want to add more todos ?"
+                message: "\t \n Do you want to add more todos ?",
+                default: "false"
                 
             }
         ]
     );
-    
-    const addingTask = () => {
-    todos.push(addTask.userTodo);
-    };
 
-    addingTask();
+    console.log(chalk.blue(addTask.userTodo),"is added to your todo list");
+    
+    todos.push(addTask.userTodo);
     condition = addTask.confirmation;
     console.log(todos);
-
 };
